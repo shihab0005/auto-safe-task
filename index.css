@@ -32,7 +32,7 @@ fieldset {
 
 legend {
 
-    margin-left: calc(50% - 35px - 35px);
+    margin-left: calc(50% - 45px - 40px);
 
 }
 
@@ -139,4 +139,5 @@ legend img {
     justify-content: center;
     margin-bottom: 1.5rem;
     text-decoration: none;
+    margin-top: -10px;
 }
