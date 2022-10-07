@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
 
-    background: #F5F5F5;
+    /* background: #F5F5F5; */
 
 }
 
@@ -19,14 +19,15 @@
     line-height: 17px;
     color: #000000;
     transform: rotate(-90deg);
-    left: 10px;
+    left: 15px;
     top: 270px;
 }
 
 fieldset {
     width: 1008px;
-    height: 850px;
+    height: 900px;
     border: 1.2px solid #525252;
+    margin-bottom: 2rem;
 }
 
 legend {
@@ -38,6 +39,7 @@ legend {
 legend img {
     width: 182px;
     height: 76px;
+    margin: 10px;
 }
 
 .box_container {
@@ -70,7 +72,7 @@ legend img {
 .box2_container span {
     font-weight: 500;
     font-size: 14px;
-    line-height: 12px;
+    line-height: 20px;
     font-family: 'SF Pro Display';
     color: #4E4D4D;
     margin: 20px 10px;
@@ -79,8 +81,8 @@ legend img {
 
 .box1_container img,
 .box2_container img {
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
     margin: 20px 10px;
 }
 
@@ -90,7 +92,7 @@ legend img {
     font-size: 14px;
     line-height: 20px;
     color: #4E4D4D;
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-left: 10px;
 }
 
@@ -131,7 +133,7 @@ legend img {
 .footer_desc a {
     font-weight: 500;
     font-size: 14px;
-    line-height: 12px;
+    line-height: 20px;
     color: #00ABFA;
     display: flex;
     justify-content: center;
