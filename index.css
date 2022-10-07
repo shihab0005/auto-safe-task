@@ -25,14 +25,14 @@
 
 fieldset {
     width: 1008px;
-    height: 900px;
+    height: 930px;
     border: 1.2px solid #525252;
     margin-bottom: 2rem;
 }
 
 legend {
 
-    margin-left: calc(50% - 35px - 8px);
+    margin-left: calc(50% - 35px - 35px);
 
 }
 
