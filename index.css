@@ -20,7 +20,7 @@
     color: #000000;
     transform: rotate(-90deg);
     left: 15px;
-    top: 270px;
+    top: 300px;
 }
 
 fieldset {
@@ -137,6 +137,6 @@ legend img {
     color: #00ABFA;
     display: flex;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     text-decoration: none;
 }
