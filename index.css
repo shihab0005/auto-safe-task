@@ -3,22 +3,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background: #F5F5F5;
+
+}
+
+.main_container {
+    padding-top: 3rem;
 }
 
 .p_left {
     position: absolute;
     font-weight: 500;
-    font-size: 9px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: 17px;
     color: #000000;
     transform: rotate(-90deg);
-    left: 290px;
-    top: 180px;
+    left: 10px;
+    top: 270px;
 }
 
 fieldset {
-    width: 552px;
-    height: 459px;
+    width: 1008px;
+    height: 850px;
     border: 1.2px solid #525252;
 }
 
@@ -29,22 +36,23 @@ legend {
 }
 
 legend img {
-    width: 99px;
-    height: 41.3px;
+    width: 182px;
+    height: 76px;
 }
 
 .box_container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2rem;
+    padding: 2rem 2rem;
 }
 
 .box1,
 .box2 {
-    width: 256px;
-    height: 100px;
+    width: 456px;
+    height: 176.95px;
     border: 5px solid #C4C4C4;
+    background: #FFFFFF;
     /* display: flex;
     justify-content: center; */
 
@@ -61,11 +69,11 @@ legend img {
 .box1_container span,
 .box2_container span {
     font-weight: 500;
-    font-size: 8px;
+    font-size: 14px;
     line-height: 12px;
     font-family: 'SF Pro Display';
     color: #4E4D4D;
-    margin: 10px 10px;
+    margin: 20px 10px;
 
 }
 
@@ -73,16 +81,16 @@ legend img {
 .box2_container img {
     width: 24px;
     height: 24px;
-    margin: 10px 10px;
+    margin: 20px 10px;
 }
 
 .box1 p,
 .box2 p {
     font-weight: 400;
-    font-size: 7px;
-    line-height: 10px;
+    font-size: 14px;
+    line-height: 20px;
     color: #4E4D4D;
-    margin-top: 30px;
+    margin-top: 4rem;
     margin-left: 10px;
 }
 
@@ -90,40 +98,43 @@ legend img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 
-.image {
-    width: 264px;
-    height: 110px;
+.image img {
+    width: 495px;
+    height: 205.63px;
 
 }
 
 .footer_image img {
-    width: 148px;
-    height: 20px;
+    width: 276px;
+    height: 37.99px;
 }
 
 .footer_container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 7.5rem;
 }
 
 .p1_link {
     text-align: center;
     font-weight: 500;
-    font-size: 8px;
-    line-height: 10px;
+    font-size: 14px;
+    line-height: 20px;
     font-family: 'SF Pro Display';
     color: #4E4D4D;
 }
 
-.p2_link {
+.footer_desc a {
     font-weight: 500;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 12px;
     color: #00ABFA;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
 }
